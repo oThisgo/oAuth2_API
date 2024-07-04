@@ -4,11 +4,7 @@ Esta é uma API simples em Node.js que utiliza OAuth2 para autenticar usuários 
 
 ## Dependências
 
-- Node.js
-- NPM ou Yarn
-
-### Pacotes NPM
-
+- nodemon: ^3.1.4
 - express: ^4.19.2
 - express-session: ^1.18.0
 - passport: ^0.7.0
@@ -35,7 +31,7 @@ Esta é uma API simples em Node.js que utiliza OAuth2 para autenticar usuários 
 
 1. Execute o servidor:
     ```sh
-    node index.js
+    npm start
     ```
 
 2. Abra o navegador e acesse `http://localhost:8001` para iniciar a autenticação com o Google.
